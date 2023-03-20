@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="container container-header ">
+    <header class="page-header container">
+        <div class="container-header ">
             <div class="container-row">
                 <nav class=" container-row">
                     <a href="./index.html" class="logo logo-header">Web<span class="studio">Studio</span></a>
@@ -40,11 +40,19 @@
     </header>
 
     <!-- main menu -->
+
     <main>
         <section class="hero-image">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions<br> for Your Business</h1>
-                <button type="button" class="text-button button">Order Service</button>
+                <button data-modal-open type="button" class="text-button button">Order Service</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <p>
+                        </p>
+                        <button data-modal-close type="button">Close</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="section main-page ">
@@ -311,8 +319,8 @@
                 </ul>
             </div>
         </div>
-
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
