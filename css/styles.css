@@ -138,6 +138,18 @@ a {
     font-size: 18px;
 }
 
+.header-text {
+    color: inherit;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-text:hover,
 .header-text:focus {
     color: var(--iris-color);
@@ -190,6 +202,8 @@ a {
     border-radius: 4px;
     letter-spacing: 0.04em;
     line-height: 24px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-button:hover,
@@ -233,6 +247,13 @@ a {
     list-style-type: none;
     width: 264px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.items-portfolio {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .items-portfolio:hover,
@@ -264,16 +285,6 @@ a {
     list-style: none;
     row-gap: 40px;
     column-gap: 40px;
-}
-
-.header-text {
-    color: inherit;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    text-decoration: none;
 }
 
 .visually-hidden {
@@ -308,6 +319,8 @@ a {
     border-color: var(--cornflower-color);
     border-radius: 4px;
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn {
@@ -356,12 +369,13 @@ a {
     height: 40px;
     background-color: var(--iris-color);
     border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover,
 .socials-link:focus {
     background-color: var(--ocean-color);
-
 }
 
 .svg-team {
@@ -405,6 +419,8 @@ a {
     display: block;
     border: 1px solid var(--light-slate-color);
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-logo:hover,
@@ -428,7 +444,8 @@ a {
 .logo-link-company:hover .svg-logo-company,
 .logo-link-company:focus .svg-logo-company {
     fill: var(--ocean-color);
-
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -454,6 +471,8 @@ a {
     height: 40px;
     border-radius: 50%;
     background-color: var(--footer-link-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link-footer:hover,
