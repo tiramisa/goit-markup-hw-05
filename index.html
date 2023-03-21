@@ -38,20 +38,12 @@
             </div>
         </div>
     </header>
-
     <!-- main menu -->
     <main>
         <section class="hero-image">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions<br> for Your Business</h1>
-                <button data-modal-open type="button" class="text-button button">Order Service</button>
-                <div class="backdrop is-hidden" data-modal>
-                    <div class="modal">
-                        <p>
-                        </p>
-                        <button data-modal-close type="button">Close</button>
-                    </div>
-                </div>
+                <button type="button" class="text-button button" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="section main-page ">
@@ -207,7 +199,6 @@
                             </ul>
                         </div>
                     </li>
-
                     <li class="items-section-team"><img src="./images/employee_1.jpeg" class="card-img" alt="employee_4"
                             width="264">
                         <div class="card-studio border-card">
@@ -283,16 +274,12 @@
     <footer class="footer-background">
         <div class="container footer-container">
             <div class="footer-space">
-
-
                 <a href="./index.html" class="logo logo-footer"><span>Web</span><span
                         class="studio-white">Studio</span></a>
                 <p class="footer-text">Increase the flow of customers and <br> sales for your business with digital <br>
                     marketing & growth solutions.</p>
             </div>
             <div>
-
-
                 <p class="social-media">Social media</p>
                 <ul class="socials-footer">
                     <li><a href="_block" class="socials-link-footer">
@@ -318,9 +305,16 @@
                 </ul>
             </div>
         </div>
-
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-btn" type="button" data-modal-close>
+                <svg class="modal-icon" width="8" height="8">
+                    <use href="./images/icons/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 
