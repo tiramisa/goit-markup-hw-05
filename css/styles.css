@@ -187,8 +187,8 @@ a {
     padding: 40px 32px;
 }
 
-.portfolio-list:hover .overlay-text,
-.portfolio-list:focus .overlay-text {
+.items-portfolio:hover .overlay-text,
+.items-portfolio:focus .overlay-text {
     transform: translateY(0);
 }
 
